@@ -3,7 +3,7 @@ caption{border:2px solid black;
     text-decoration:solid;
 }
 body{
-    background-attachment:fixed;
+    background-attachment:url("herbals.jpeg");
     background-size:cover;
 }
 th{text-decoration:solid;
