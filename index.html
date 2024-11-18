@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>nature love</title>
-        <link rel="icon" href="img/fevicon2.jpeg">
+        <title>personalWeb</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" contyent="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  >
+        <style>
+            aside {
+                width: 17%;
+                padding-left: 15px;
+                margin-left:15px;
+                float:right;
+                font-style:italic;
+                background-image:url("/img/meal.jpeg")
+            }
+            
+            body {
+                background-color: white;
+                
+            }
+            #line-1 {
+                font-size: large;
+            }
+            p {
+                margin:7px;
+            }
+            .story {
+                width:50%;
+                float:left;
+                padding:2px;
+                background-color:aliceblue;
+                
+            }
+            .hobby {
+                width:50%;
+                float:left;
+                padding:2px;
+                background-color:lightblue;
+            }
+            .main-1 {
+                display:flex;
+            }
+        </style>
     </head>
     <body>
-        <nav>
-            <a href="/css/">Contact</a> 
-            <a href="/img/">Home</a>
-        </nav>
-        <form action="/action_page.php" autocomplete="off">
-            <lable for="fname"></lable>first name</lable><br>
-            <input type="text" id="fname" name="fname" value="john"><br>
-            <lable for="lname">last nmae</lable><br>
-            <input type="text" id="lname" name="lname" value="mitamita"><br>
-            <input type="submit" value="submit">
-        </form>
-        <h1 id="demo">My love for nature and the beautiful larsh environment</h1>
-        <p>
-            My love for nature is one of a kind<br> I joined scouting in primary and really enjoyed it alot since it was  fun and enjoyable 
-        </p>
-        <form>
-            <lable for="towns">choose a town:</lable>
-            <select id="towns" name="towns" >
-                <option value="china">china</option>
-                <option value="kenya">kenya</option>
-                <option value="new york">new york</option>
-                <option value="country">dubai</option>
-                <input type="submit" name="submit">
-            </select>
-        <button type="button" onclick ="alart('try agin in the next 3 mins')">CLICk here</button>
-        </form>
-            <li>love</li>
-            <li>joy &clubs;</li>
-            <li>peace &hearts;</li>
-            <li>patience &#128209</li>
-            <li>kindness</li>
-            <li>goodness</li>
-        <ul>
-            <li>love</li>
-            <li>grace</li>
-            <li>wendi</li>
-        </ul>
-    
-        <div class="mycontainer">
-            <div>
-                <h>GINKO</h>
-                <img src="ginko.webp" alt="ginko" style="width:200px; float:inline-end;height: 160px;">
-                <p>As one of the oldest tree species, gingko is also one of the oldest homeopathic plants and a key herb in Chinese medicine. The leaves are used to create capsules, tablets, and extracts, and when dried, can be consumed as a tea.
-
-                    It’s perhaps best-known for its ability to boost brain health. Studies say that gingko can treat patients with mild to moderate dementiaTrusted Source, and can slow cognition decline in dementia and Alzheimer’s disease.</p>
+        <div class="name-logo">
+            <img src="/img/tinlog.jpg" width="150" height="150">
+            <img src="/img/fevicon.jpeg" width="500" height="150">
+            <aside >This is my first website to test my skills and help me to store memories</aside>
+        </div>
+        <P id="line-1">This is a website that is aimed at using to express myself to the fullest and be able to keep some good memories</P>
+        <div class="main-1">
+            
+            <div class="story">
+                <h1 style="text-align:center;">My story</h1>
+                <p>My name is <i >Martin Edward Mitamita</i>, born and raised in kisumu county</p>
+                <p>Im an IT student at Co-operative university of nairobi karen compus</p>
+                <p>I'm currently working on specializing on proggraming languages such as python,javascrypt  for backend</p>
+                <p>I also have a keen intrest in lerning api development with python and  web development</p>
+                <p>I'm also aiming fullstack development in the near future</p>
+                
             </div>
-            <div>
-                <h style="text-transform:uppercase;">tumeric</h>
-                <img src="tumeric.webp" alt="tumeric" style="width:200px;float:inline-end;height:160px;">
-                <p>With its brilliant orange hue, it’s impossible to miss a bottle of turmeric sitting on a spice shelf. Originating in India, turmeric is believed to have anticancer properties and can prevent DNA mutations.
-
-                    As an anti-inflammatory, it can be taken as a supplement and it’s been used topically for people with arthritis who wish to relieve discomfort. It’s used worldwide as a cooking ingredient, which makes it a delicious, antioxidant-richTrusted Source addition to many dishes.
-                    
-                    According to recent research, turmeric is also showing promise as a treatment for a variety of dermatologic diseases and joint arthritisTrusted Source.</p>
+            <div class="hobby">
+                <h1 style="text-align:center;">My hobbies</h1>
+                <p>I love cooking and eating delicious food</p>
+                <p>I also enjoy reading books and watching movies</p>
+                <p>I also like playing video games and playing chess</p>
+                <p>I'm also aiming to become a freelance web developer</p>
             </div>
         </div>
     </body>
-
 </html>
